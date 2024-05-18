@@ -81,6 +81,7 @@ def kmeans(img):
         inertia_values.append(km.inertia_)
     print("inertia of 1 to 10 clusters : ",inertia_values)
     
+    
     plt.plot(inertia_values)
     plt.xlabel("n clusters")
     plt.ylabel("inertia")
